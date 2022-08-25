@@ -34,7 +34,7 @@ nav ul li {
 }
 
 .container{
-    min-height: 58vh;
+    min-height: 72vh;
     background-color: black;
     color: white;
     font-family: 'Varela Round', sans-serif ;
@@ -43,8 +43,8 @@ nav ul li {
     margin: 23px auto;
     border-radius:12px;
     padding: 34px;
-    background-image: url('./images/bg.jpg') ;
-    background-size: cover;
+    background-image: url('./images/bg.jpg');
+    /* background-size: cover; */
 
 }
 .bottom{
@@ -68,14 +68,12 @@ nav ul li {
 }
 #myProgressBar{
   width: 80vw;
-  text-align: center;
   cursor: pointer;
 }
 .songItem{
   height: 50px;
   display: flex;
   background-color: white;
-  width: 80% ;
   color: black;
   margin: 12px 0 ;
   justify-content: space-between;
