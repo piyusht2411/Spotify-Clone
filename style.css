@@ -1,38 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
 
-body{
-    background-color: aqua;
+body {
+  background-color: aqua;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  font-family: "Ubuntu", sans-serif;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 65px;
+  background-color: black;
+  color: white;
+}
+.brand img {
+  width: 44px;
+  padding: 0 8px;
+}
+nav ul li {
+  padding: 0 12px;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.3em;
+}
 
+.container{
+    min-height: 75vh;
 }
-*{
-    margin: 0;
-    padding: 0;
-}
-nav{
-    font-family: 'Ubuntu', sans-serif;
-
-}
-nav ul{
-    display: flex;
-    align-items: center;
-    list-style-type: none;
-    height: 65px;
+.bottom{
+    position: sticky;
+    height: 130px;
     background-color: black;
-    color: white;
-}
-.brand img{
-    width: 44px;
-    padding: 0 8px;
-
-}
-nav ul li{
-    padding: 0 12px;
-}
-.brand{
-    display: flex; 
+    bottom: 0;
+    color: white  ;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    font-weight: bold;
-    font-size: 1.3em;
+    flex-direction: column;
+    
 
+}
+.icons{
+  margin-top: 14px;
+}
+.icons i{
+  cursor: pointer;
+}
+#myProgressBar{
+  width: 80vw;
+  text-align: center;
 }
